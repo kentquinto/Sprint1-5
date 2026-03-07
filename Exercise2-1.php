@@ -24,7 +24,7 @@ class Circle extends Shape {
         $this->height = $radius;
       }
       function area() {
-        return pi () * $this->width * $this->height;
+        return pi() * $this->width * $this->height;
 }
 }
 $rectangle = new Rectangle(5, 10);
